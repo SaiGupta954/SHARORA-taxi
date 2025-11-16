@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharora – Cosmic Shared Rides</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- NAV -->
+    <header class="nav">
+      <div class="nav-left">
+        <img src="/images/logo.png" alt="Sharora logo" class="logo-img">
+        <div class="brand-text">SHARORA</div>
+      </div>
+      <nav class="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#cars">Cars</a>
+        <a href="#savings">Why it’s cheaper</a>
+        <a href="#routes">Sample fares</a>
+        <button class="nav-cta">Download app</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>
+          Cosmic shared rides,
+          <span class="hero-highlight">with prices that fall as you share.</span>
+        </h1>
+        <p>
+          Sharora connects riders going in the same direction so you can split the
+          fare, reduce traffic, and glide through the city in cosmic orange style.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">🚗 Shared rides by default</span>
+          <span class="tag">💸 Up to 40% cheaper</span>
+          <span class="tag">🌎 Fewer cars, cleaner air</span>
+        </div>
+        <div class="hero-badge">
+          <span>NEW</span> Sharora Cosmic Mode: optimized routes + glowing savings.
+        </div>
+      </div>
+
+      <!-- BOOKING CARD -->
+      <aside class="hero-right">
+        <div class="hero-right-header">
+          <div class="toggle-group">
+            <div class="toggle-pill active">Ride</div>
+            <div class="toggle-pill">Rent</div>
+          </div>
+          <div class="pill-shared">
+            <span class="pill-dot"></span> Shared ON
+          </div>
+        </div>
+
+        <div class="form">
+          <div class="field">
+            <span class="field-label">Pickup</span>
+            <input class="field-input" type="text" placeholder="Enter pickup location">
+          </div>
+          <div class="field">
+            <span class="field-label">Drop-off</span>
+            <input class="field-input" type="text" placeholder="Enter destination">
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <span class="field-label">Time</span>
+              <input class="field-input" type="time">
+            </div>
+            <div class="field">
+              <span class="field-label">Date</span>
+              <input class="field-input" type="date">
+            </div>
+          </div>
+          <div class="split-row">
+            <div class="field">
+              <span class="field-label">Riders</span>
+              <input class="field-input" type="number" min="1" value="1">
+            </div>
+            <div class="field">
+              <span class="field-label">Shared ride</span>
+              <div class="shared-chip">
+                Up to 3 co-riders • price drops as seats fill
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="cta-btn">Find cosmic shared rides</button>
+
+        <div class="price-row">
+          <div>
+            <div class="price-main">
+              Estimated: $6.40
+              <span>$10.20</span>
+            </div>
+            <p class="price-desc">
+              You’re saving with Sharora shared mode. More riders = less price.
+            </p>
+          </div>
+          <div class="price-discount">
+            🔻 -37% vs solo
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="section-header">
+        <h2 class="section-title">How Sharora shared rides work</h2>
+        <p class="section-sub">Three simple steps to ride in cosmic orange and pay less.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3 class="card-title">1. Request a shared ride</h3>
+          <p>
+            Set pickup and drop-off exactly like Uber. Sharora starts in
+            shared mode, so you’re always on the cheaper option.
+          </p>
+          <div class="card-pill">
+            🔁 You can switch to solo anytime
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card-title">2. We match your route</h3>
+          <p>
+            Our routing engine pairs you with riders going in a similar
+            direction, keeping detours small while filling empty seats.
+          </p>
+          <div class="card-pill">
+            ⏱ Typical extra time: +5–7 min
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card-title">3. You split the fare</h3>
+          <p>
+            Every extra rider lowers your share. You see your final discounted
+            price before confirming, no surprises.
+          </p>
+          <div class="card-pill">
+            💸 Save up to 40% every trip
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARS FOR SHARED RIDES -->
+    <section class="section" id="cars">
+      <div class="section-header">
+        <h2 class="section-title">Cars you can share with Sharora</h2>
+        <p class="section-sub">
+          Choose a car category – every one supports shared rides and split fares.
+        </p>
+      </div>
+
+      <div class="cars-grid">
+        <!-- COMPACT CAR -->
+        <div class="car-card">
+          <img src="/images/Xl.png" alt="Compact car" class="car-img">
+          <div class="car-header">
+            <h3 class="car-title">Cosmic Compact</h3>
+            <p class="car-sub">Best for 1–2 riders</p>
+          </div>
+          <ul class="car-list">
+            <li>• Lowest starting price</li>
+            <li>• Perfect for short city trips</li>
+            <li>• Shared with up to 3 riders</li>
+          </ul>
+          <div class="car-footer">
+            <span class="car-price">From $3.20 / rider</span>
+            <span class="car-chip">Shared ON</span>
+          </div>
+        </div>
+
+        <!-- SEDAN CAR -->
+        <div class="car-card">
+          <img src="/images/sedan.png" alt="Sedan car" class="car-img">
+          <div class="car-header">
+            <h3 class="car-title">Orbit Sedan</h3>
+            <p class="car-sub">Comfort for 3–4 riders</p>
+          </div>
+          <ul class="car-list">
+            <li>• Extra legroom & comfort</li>
+            <li>• Split fare across more seats</li>
+            <li>• Great for office or airport</li>
+          </ul>
+          <div class="car-footer">
+            <span class="car-price">From $4.80 / rider</span>
+            <span class="car-chip">Most popular</span>
+          </div>
+        </div>
+
+        <!-- XL CAR -->
+        <div class="car-card">
+          <img src="/images/suv.png" alt="XL car" class="car-img">
+          <div class="car-header">
+            <h3 class="car-title">Galaxy XL</h3>
+            <p class="car-sub">Groups & luggage</p>
+          </div>
+          <ul class="car-list">
+            <li>• Up to 6 shared riders</li>
+            <li>• Ideal for events & trips</li>
+            <li>• Biggest per-person savings</li>
+          </ul>
+          <div class="car-footer">
+            <span class="car-price">From $5.40 / rider</span>
+            <span class="car-chip">Max savings</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY IT'S CHEAPER -->
+    <section class="section" id="savings">
+      <div class="section-header">
+        <h2 class="section-title">Why the price becomes less</h2>
+        <p class="section-sub">
+          Sharora uses a simple rule: more riders = less cost per person.
+        </p>
+      </div>
+
+      <div class="routes-grid" id="routes">
+        <div class="route-card">
+          <div class="route-main">
+            <div>Solo ride</div>
+            <div class="route-price">$10.20</div>
+          </div>
+          <div class="route-info">
+            <span>1 rider • full fare</span>
+            <span class="route-chip">Base price</span>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-main">
+            <div>Shared • 2 riders</div>
+            <div class="route-price">$7.10</div>
+          </div>
+          <div class="route-info">
+            <span>-30% per rider</span>
+            <span class="route-chip">Cosmic split</span>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-main">
+            <div>Shared • 3 riders</div>
+            <div class="route-price">$6.40</div>
+          </div>
+          <div class="route-info">
+            <span>-37% per rider</span>
+            <span class="route-chip">Best savings</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CHOOSE A RIDE -->
+    <section class="section" id="rides">
+      <div class="section-header">
+        <h2 class="section-title">Choose a ride</h2>
+        <p class="section-sub">
+          Prices update automatically when shared riders are matched.
+        </p>
+      </div>
+
+      <!-- Simulate if someone else is waiting to share -->
+      <div class="rides-controls">
+        <label>
+          <input type="checkbox" id="matchSharedCheckbox">
+          There is another rider nearby who wants to share
+        </label>
+      </div>
+
+      <div class="rides-list">
+        <!-- SOLO -->
+        <div class="ride-card" data-type="solo">
+          <div class="ride-main">
+            <div>
+              <div class="ride-name">Solo ride</div>
+              <div class="ride-meta">1–4 seats • fastest route</div>
+            </div>
+            <div class="ride-price" id="priceSolo">$0.00</div>
+          </div>
+          <div class="ride-sub">
+            Full price, no sharing. Best when you’re in a hurry.
+          </div>
+        </div>
+
+        <!-- SHARED – 2 riders -->
+        <div class="ride-card" data-type="shared2">
+          <div class="ride-main">
+            <div>
+              <div class="ride-name">Sharora Share · 2 riders</div>
+              <div class="ride-meta">Shared ride • 2 people</div>
+            </div>
+            <div class="ride-price" id="priceShared2">$0.00</div>
+          </div>
+          <div class="ride-sub">
+            You and one other rider split the fare. Small detour, lower price.
+          </div>
+          <div class="ride-pill">💸 About 25% cheaper per person</div>
+        </div>
+
+        <!-- SHARED – 3 riders -->
+        <div class="ride-card" data-type="shared3">
+          <div class="ride-main">
+            <div>
+              <div class="ride-name">Sharora Share · 3 riders</div>
+              <div class="ride-meta">Shared ride • up to 3 people</div>
+            </div>
+            <div class="ride-price" id="priceShared3">$0.00</div>
+          </div>
+          <div class="ride-sub">
+            Up to 3 riders matched. Highest savings if people are nearby.
+          </div>
+          <div class="ride-pill ride-pill-strong">🚀 Up to 35–40% cheaper per person</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span>© 2025 Sharora – Cosmic shared ride demo site.</span>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </footer>
+  </div>
+  <script>
+  // Helper to fake a distance based on how "different" the strings are
+  function estimateDistance(pickup, dropoff) {
+    if (!pickup || !dropoff) return 5; // default 5 km
+    const diff = Math.abs(pickup.length - dropoff.length);
+    return 4 + diff; // silly but fine for a demo
+  }
+
+  function updateRidePrices() {
+    const pickupInput = document.querySelector('input[placeholder="Enter pickup location"]');
+    const dropoffInput = document.querySelector('input[placeholder="Enter destination"]');
+    const matchCheckbox = document.getElementById('matchSharedCheckbox');
+
+    const pickup = pickupInput.value.trim();
+    const dropoff = dropoffInput.value.trim();
+
+    // Base price = base fee + distance * per-km
+    const distanceKm = estimateDistance(pickup, dropoff);
+    const baseFee = 2.5;
+    const perKm = 1.4;
+    let soloPrice = baseFee + distanceKm * perKm;
+
+    // round to 2 decimals
+    soloPrice = Math.round(soloPrice * 100) / 100;
+
+    // Shared prices (percent off)
+    let shared2 = soloPrice * 0.75;  // 25% cheaper
+    let shared3 = soloPrice * 0.65;  // 35% cheaper
+
+    // If checkbox ticked => "someone else is waiting", give extra 10% off on shared
+    if (matchCheckbox && matchCheckbox.checked) {
+      shared2 *= 0.9;
+      shared3 *= 0.9;
+    }
+
+    // Update the DOM
+    document.getElementById('priceSolo').textContent = '$' + soloPrice.toFixed(2);
+    document.getElementById('priceShared2').textContent = '$' + shared2.toFixed(2) + ' / rider';
+    document.getElementById('priceShared3').textContent = '$' + shared3.toFixed(2) + ' / rider';
+  }
+
+  // When user clicks "Find cosmic shared rides" → scroll + calculate
+  const ctaBtn = document.querySelector('.cta-btn');
+  if (ctaBtn) {
+    ctaBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      updateRidePrices();
+      const ridesSection = document.getElementById('rides');
+      if (ridesSection) {
+        ridesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
+
+  // Recalculate when checkbox changes
+  const sharedCheckbox = document.getElementById('matchSharedCheckbox');
+  if (sharedCheckbox) {
+    sharedCheckbox.addEventListener('change', function () {
+      updateRidePrices();
+    });
+  }
+
+  // Highlight selected ride card
+  document.addEventListener('click', function (e) {
+    const card = e.target.closest('.ride-card');
+    if (!card) return;
+    document.querySelectorAll('.ride-card').forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+  });
+</script>
+
+</body>
+</html>
